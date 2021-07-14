@@ -141,7 +141,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @ankivectorUpdates
+Join @ankivectorUpdates 🆗
 """
 )
 
