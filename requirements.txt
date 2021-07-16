@@ -3,3 +3,7 @@ Pillow
 Pyrogram
 TgCrypto
 aiohttp
+https://github.com/Tinche/aiofiles/archive/master.zip
+motor
+dnspython
+psutil
