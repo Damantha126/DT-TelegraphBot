@@ -30,7 +30,6 @@ BOT_USERNAME = Config.BOT_USERNAME
 TG_BOT_TOKEN = Config.TG_BOT_TOKEN
 APP_ID = Config.APP_ID
 API_HASH = Config.API_HASH
-DB_CHANNEL = Config.DB_CHANNEL
 BOT_OWNER = Config.BOT_OWNER
 db = Database(Config.DATABASE_URL, BOT_USERNAME)
 broadcast_ids = {}
