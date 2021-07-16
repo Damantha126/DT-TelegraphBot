@@ -28,13 +28,13 @@ DTbot = Client(
 ## --- Sub Configs --- ##
 BOT_USERNAME = Config.BOT_USERNAME
 TG_BOT_TOKEN = Config.TG_BOT_TOKEN
-API_ID = Config.API_ID
+APP_ID = Config.APP_ID
 API_HASH = Config.API_HASH
 DB_CHANNEL = Config.DB_CHANNEL
 BOT_OWNER = Config.BOT_OWNER
 db = Database(Config.DATABASE_URL, BOT_USERNAME)
 broadcast_ids = {}
-Bot = Client(BOT_USERNAME, bot_token=TG_BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
+Bot = Client(BOT_USERNAME, bot_token=TG_BOT_TOKEN, api_id=APP_ID, api_hash=API_HASH)
 
 @DTbot.on_message(filters.command("start"))
 async def start(client, message):
